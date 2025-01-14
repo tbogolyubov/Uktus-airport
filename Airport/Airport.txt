@@ -1,0 +1,75 @@
+CREATE TABLE IF NOT EXISTS Customers (
+    CustomerID SERIAL PRIMARY KEY,
+    LastName VARCHAR(50),
+    FirstName VARCHAR(50),
+    Patronymic VARCHAR(50),
+    PhoneNumber VARCHAR(15),
+    Email VARCHAR(50)
+);
+
+CREATE TABLE IF NOT EXISTS Services (
+    ServiceID SERIAL PRIMARY KEY,
+    ServiceName VARCHAR(100),
+    Price DECIMAL(10, 2)
+);
+
+CREATE TABLE IF NOT EXISTS Instructors (
+    InstructorID SERIAL PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    Email VARCHAR(100),
+    PhoneNumber VARCHAR(15),
+    Specialization VARCHAR(100),
+    Description TEXT,
+    Photo BYTEA,
+    DetailedSpecialization TEXT
+);
+
+CREATE TABLE IF NOT EXISTS ServiceBookings (
+    BookingID SERIAL PRIMARY KEY,
+    CustomerID INTEGER,
+    ServiceID INTEGER,
+    InstructorID INTEGER,
+    BookingDate DATE,
+    StartTime TIME,
+    Duration INTEGER,
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID),
+    FOREIGN KEY (InstructorID) REFERENCES Instructors(InstructorID),
+    FOREIGN KEY (ServiceID) REFERENCES Services(ServiceID)
+);
+
+CREATE TABLE IF NOT EXISTS Vehicles (
+    VehicleID SERIAL PRIMARY KEY,
+    InstructorID INTEGER NOT NULL,
+    VehicleType VARCHAR(50),
+    VehicleModel VARCHAR(50),
+    Capacity INTEGER,
+    FOREIGN KEY (InstructorID) REFERENCES Instructors(InstructorID)
+);
+
+CREATE TABLE IF NOT EXISTS VehicleServices (
+    VehicleServiceID SERIAL PRIMARY KEY,
+    VehicleID INTEGER NOT NULL,
+    ServiceID INTEGER NOT NULL,
+    FOREIGN KEY (VehicleID) REFERENCES Vehicles(VehicleID),
+    FOREIGN KEY (ServiceID) REFERENCES Services(ServiceID)
+);
+
+CREATE TABLE IF NOT EXISTS AirportInfo (
+    InformationId SERIAL PRIMARY KEY,
+    InfoText TEXT,
+    Website VARCHAR(100),
+    Address VARCHAR(255),
+    Phone VARCHAR(20),
+    Email VARCHAR(100),
+    OperatingMode VARCHAR(50)
+);
+
+CREATE TABLE IF NOT EXISTS VehicleSpecifications (
+    VehicleID INTEGER NOT NULL,
+    History TEXT,
+    Specification TEXT,
+    Conveniences TEXT,
+    VehiclePhoto BYTEA,
+    FOREIGN KEY (VehicleID) REFERENCES Vehicles(VehicleID)
+);
