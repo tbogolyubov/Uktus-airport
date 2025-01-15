@@ -28,31 +28,38 @@
 Интерфейс окон «Информация о воздушном судне (самолет)»
 
 ![image](https://github.com/user-attachments/assets/73b42b52-d4ee-43fa-917c-fd5eb85f0447)
+
 ![image](https://github.com/user-attachments/assets/898b7b60-f8ee-43fe-9e04-1f87ddd73850)
 
 Интерфейс окон «Информация о воздушном судне (вертолет)»
 
 ![image](https://github.com/user-attachments/assets/c06b2233-db31-46a5-b0dc-456e1b5c3762)
+
 ![image](https://github.com/user-attachments/assets/3600824b-9d9d-4ab4-a0b4-fa8ddd05f659)
 
 Интерфейс окон «Информация о воздушном судне (дельтаплан)»
 
 ![image](https://github.com/user-attachments/assets/6e384993-f0eb-4894-8a40-e6469c6f852c)
+
 ![image](https://github.com/user-attachments/assets/9991b819-da2d-4800-853e-1560720fd341)
 
 Интерфейс окон «Информация о воздушном судне (воздушный шар)»
 
 ![image](https://github.com/user-attachments/assets/03fcf396-5a95-4200-a332-ae8d9434d362)
+
 ![image](https://github.com/user-attachments/assets/304a2119-9b7b-4e03-a358-84218e73495b)
 
 Интерфейс окон «Информация о воздушном судне (парашют)»
 
 ![image](https://github.com/user-attachments/assets/8144ae84-504c-4c53-86b4-9705fff3641d)
+
 ![image](https://github.com/user-attachments/assets/8c99dd52-3da0-44b0-9aba-d24fcda6046a)
 
 Интерфейс окна "Запись"
 
 ![image](https://github.com/user-attachments/assets/5a270c25-fe76-41f2-96cf-9327e40c2cbf)
+
+![{691A88BD-F168-4D02-8EF9-463604F87C82}](https://github.com/user-attachments/assets/2fb61f93-ba4e-466d-9a6c-b29a4a70719f)
 
 Интерфейс окна "Инструкторы"
 
@@ -61,25 +68,30 @@
 Интерфейс окон «Информация об инструкторе (самолет)"
 
 ![image](https://github.com/user-attachments/assets/8af46409-83f8-401d-b6c2-92bfa82d444d)
+
 ![image](https://github.com/user-attachments/assets/a2a32acd-bd39-42f2-9619-5c883e6eac2a)
 
 Интерфейс окон «Информация об инструкторе (вертолет)"
 
 ![image](https://github.com/user-attachments/assets/a38aca11-9eb2-4480-8dd6-5be847541c34)
+
 ![image](https://github.com/user-attachments/assets/5ade757c-f30e-4dd1-a6ee-2f2b965e31b3)
 
 Интерфейс окон «Информация об инструкторе (дельтаплан)"
 
 ![image](https://github.com/user-attachments/assets/c61f8843-b720-4f00-9fe2-92402c678095)
+
 ![image](https://github.com/user-attachments/assets/7cb7a4ec-c41a-4c31-a4f8-35402e8fcbeb)
 
 Интерфейс окон "Информация об инструкторе (воздушный шар)"
 
 ![image](https://github.com/user-attachments/assets/57ac74af-2fb6-4e63-9de2-4c2f8a266f1b)
+
 ![image](https://github.com/user-attachments/assets/c54d79eb-fc5e-476b-9c5c-6cc9cfd0133b)
 
 Интерфейс окон "Информация об инструкторе (парашют)"
 
 ![image](https://github.com/user-attachments/assets/c44e9526-59de-4683-83e4-0b7cda69db98)
+
 ![image](https://github.com/user-attachments/assets/046600d6-4a4e-4c1d-92b7-5a2e6bb63ed0)
 
